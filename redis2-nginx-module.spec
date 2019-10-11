@@ -4,7 +4,7 @@
 #
 Name     : redis2-nginx-module
 Version  : 0.15
-Release  : 1
+Release  : 2
 URL      : https://github.com/openresty/redis2-nginx-module/archive/v0.15.tar.gz
 Source0  : https://github.com/openresty/redis2-nginx-module/archive/v0.15.tar.gz
 Summary  : No detailed summary available
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : BSD-2-Clause
 Requires: redis2-nginx-module-lib = %{version}-%{release}
 BuildRequires : buildreq-nginx
+BuildRequires : openssl-dev
 
 %description
 Name
