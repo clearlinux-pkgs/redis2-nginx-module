@@ -4,7 +4,7 @@
 #
 Name     : redis2-nginx-module
 Version  : 0.15
-Release  : 5
+Release  : 6
 URL      : https://github.com/openresty/redis2-nginx-module/archive/v0.15.tar.gz
 Source0  : https://github.com/openresty/redis2-nginx-module/archive/v0.15.tar.gz
 Summary  : No detailed summary available
@@ -30,6 +30,7 @@ lib components for the redis2-nginx-module package.
 
 %prep
 %setup -q -n redis2-nginx-module-0.15
+cd %{_builddir}/redis2-nginx-module-0.15
 
 %build
 export http_proxy=http://127.0.0.1:9/
